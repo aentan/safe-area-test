@@ -12,13 +12,16 @@
     body {
       margin: 0;
       padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
-      background-color: #f0f0f0; /* Background color for visibility */
+      background-color: green; /* Background color for visibility */
       font-family: Arial, sans-serif;
       display: flex;
       align-items: center;
       justify-content: center;
       height: 100vh;
       box-sizing: border-box;
+    }
+    .content {
+      background-color: yellow;
     }
     h1 {
       text-align: center;
@@ -27,6 +30,8 @@
   </style>
 </head>
 <body>
-  <h1>Welcome to Fullscreen with Safe Area Insets</h1>
+  <div class="content">
+    <h1>Welcome to Fullscreen with Safe Area Insets</h1>
+  </div>
 </body>
 </html>
